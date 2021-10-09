@@ -3,7 +3,7 @@
 Reads the contents of a URI into a
 [Buffer](https://nodejs.org/api/buffer.html#buffer_buffer) or string.
 
-(Because I got tired of gluing [get-uri](https://www.npmjs.com/package/get-uri))
+(Because I got tired of gluing [get-uri](https://www.npmjs.com/package/get-uri)
 to [stream-to-array](https://www.npmjs.com/package/stream-to-array)).
 
 # Usage
