@@ -12,7 +12,7 @@ to [stream-to-array](https://www.npmjs.com/package/stream-to-array)).
 const slurpUri = require('@shieldsbetter/slurp-uri');
 
 async function main() {
-    console.log(await slurpUri('data:,hello world'));
+    console.log(await slurpUri('data:,hello world'), { encoding: 'utf8' });
 }
 ```
 
