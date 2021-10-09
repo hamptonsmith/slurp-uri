@@ -9,8 +9,9 @@ to [stream-to-array](https://www.npmjs.com/package/stream-to-array)).
 # Usage
 
 ```javascript
+const slurpUri = require('@shieldsbetter/slurp-uri');
+
 async function main() {
-    const slurpUri = require('@shieldsbetter/slurp-uri');
     console.log(await slurpUri('data:,hello world'));
 }
 ```
