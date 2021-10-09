@@ -1,0 +1,16 @@
+{
+  "name": "@shieldsbetter/slurp-uri",
+  "version": "0.0.1",
+  "description": "Read contents of a URI into a buffer or string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hampton Smith",
+  "license": "ISC",
+  "dependencies": {
+    "get-uri": "^4.0.0",
+    "stream-to-array": "^2.3.0",
+    "stream-to-string": "^1.2.0"
+  }
+}
